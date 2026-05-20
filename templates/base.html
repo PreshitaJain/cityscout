@@ -31,8 +31,12 @@
             margin: 0;
             letter-spacing: -0.5px;
         }
-        h1 a { color: var(--text); text-decoration: none; }
+        h1 a { color: var(--text); text-decoration: none; transition: color 0.15s; }
+        h1 a:hover { color: var(--accent); }
         .tagline { color: var(--muted); font-size: 1.05rem; margin-top: 4px; }
+        .back-link { margin: 0 0 8px; font-size: 0.95rem; }
+        .back-link a { color: var(--accent); text-decoration: none; }
+        .back-link a:hover { text-decoration: underline; }
         h2 {
             font-size: 1.6rem;
             margin: 32px 0 8px;
