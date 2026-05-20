@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<form action="/search" method="get">
+    <input type="text" name="city" placeholder="Enter a city (e.g. lisbon, tokyo)" required autofocus>
+    <button type="submit">Discover</button>
+</form>
+{% if error %}
+<div class="error">{{ error }}</div>
+{% endif %}
+{% endblock %}

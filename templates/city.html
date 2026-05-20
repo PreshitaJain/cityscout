@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block title %}{{ city|title }} — CityScout{% endblock %}
+{% block content %}
+<form action="/search" method="get">
+    <input type="text" name="city" placeholder="Search another city" required value="{{ city }}">
+    <button type="submit">Discover</button>
+</form>
+
+<h2>Guide to {{ city|title }}</h2>
+
+{% for key, label in category_labels.items() %}
+<section>
+    <h3>{{ label }}</h3>
+    {% set places = categories.get(key, []) %}
+    {% if places %}
+        {% for place in places %}
+        <div class="place">
+            <div class="place-name">{{ place.name }}</div>
+            <div class="place-desc">{{ place.description }}</div>
+        </div>
+        {% endfor %}
+    {% else %}
+        <div class="empty">No recommendations found.</div>
+    {% endif %}
+</section>
+{% endfor %}
+{% endblock %}
