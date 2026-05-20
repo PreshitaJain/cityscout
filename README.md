@@ -19,6 +19,19 @@ For any city, it returns up to 5 places in each of four categories:
 - **Gram-Worthy Spots** — cafés, viewpoints, photogenic locations
 - **Off the Beaten Path** — hidden gems, local secrets
 
+## Design thinking: why Reddit?
+
+We evaluated several alternatives before picking Reddit. Short version:
+
+- **Free, unauthenticated JSON API** — no app review, no business account, no per-call cost.
+- **Text-rich discussion** in comments — where the real "go here, not there" wisdom lives.
+- **Natural topical organization** via subreddits, plus upvotes as a free quality signal.
+- **Lower brand/influencer pollution** than most social platforms.
+
+Alternatives we considered and ruled out: **Instagram** (restrictive API, visual-first, heavy sponsored content), **Google Reviews / Maps API** (pay-per-call, performative reviews), **TikTok** (restrictive API, requires transcription), **YouTube vlogs** (expensive transcription, often sponsored), **general blog scraping** (heterogeneous, often stale, ToS risk).
+
+See [`DESIGN.md`](./DESIGN.md) → "Source choice" for the full evaluation including Instagram-specific reasoning and the tradeoffs we accept.
+
 ## Features
 
 - **Multi-source Reddit data** — `r/<city>` posts *and* their top comments, plus searches in `r/travel` and `r/solotravel`. Comments are where the real "go here, not there" recommendations live.

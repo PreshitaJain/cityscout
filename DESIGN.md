@@ -20,6 +20,44 @@ Each place has a name and a 1-2 sentence description.
 
 ---
 
+## Source choice: why Reddit (and not Instagram or other platforms)?
+
+CityScout's recommendations are only as credible as their source. We evaluated several alternatives before committing to Reddit — the reasoning below explains the trade.
+
+### Why Reddit wins
+
+- **Free, unauthenticated JSON API.** `https://www.reddit.com/r/<sub>/top.json` and `search.json` return structured data without authentication. No app review, no business account, no API key, no per-call cost.
+- **Text-first, discussion-rich.** Comments are where the actual "go here, not there" wisdom lives — long-form, detailed, with follow-up Q&A. That's exactly the raw material Claude needs to extract specific recommendations from.
+- **Natural topical organization.** Subreddits give us a built-in city/topic hierarchy (`r/<city>`, `r/travel`, `r/solotravel`). No need to invent our own categorization layer or stitch together hashtag/keyword soup.
+- **Voting as a free quality signal.** Upvotes act as community-driven filtering — "top posts of the year" is roughly "what people consistently agreed was useful." We get a credibility signal without building it.
+- **Lower brand and marketing pollution.** Compared to most social platforms, Reddit has stronger community norms against overt self-promotion. Recommendations are more likely from real visitors than paid influencers or sponsored content.
+- **Time filtering for free.** Reddit's `t=year` / `t=month` / `t=week` parameters let us trade off recency vs. signal volume with zero custom logic.
+
+### Why not Instagram
+
+- **API is heavily restricted.** Instagram's Graph API requires a Facebook Business account, app review, and explicit use-case justification for meaningful data access. High friction even to prototype.
+- **Visual-first medium.** Captions are short, often emoji- and hashtag-heavy. The actual recommendation signal (what's there, why it's good) lives in the *image*, which would require multimodal vision processing — significantly more complex and expensive than text extraction.
+- **Heavy influencer / sponsored content.** Instagram is among the most monetized platforms; many "recommendations" are paid placements or brand partnerships. The credibility floor is lower.
+- **Geotagging is patchy.** Many posts aren't location-tagged, and when they are, the tag is often coarse (city or country level) and gameable.
+- **Discovery via hashtags is noisy.** `#tokyo` returns millions of unrelated posts (selfies, close-up food shots, generic memes). Signal-to-noise is poor without heavy pre-filtering.
+
+### Why not other options we considered
+
+- **Google Reviews / Google Maps Places API.** Pay-per-call pricing, and review style is performative ("amazing experience!!!") with limited specific, actionable recommendations.
+- **TripAdvisor.** Public API was deprecated/restricted; well-known concerns about paid placements and review-bombing.
+- **TikTok.** Video-first, restrictive API, would require transcription. High cost, low margin for our use case.
+- **YouTube travel vlogs.** Long-form video → expensive to transcribe and analyze per query. Many vlogs are sponsored.
+- **General travel blogs (web scraping).** Heterogeneous formats, often SEO-optimized listicle content, frequently stale, plus ToS and legal risk.
+
+### Tradeoffs we accept by choosing Reddit
+
+- **English-language Reddit dominates.** CityScout's recommendations skew toward English-speaking traveler perspectives. Cities with primarily non-English Reddit activity get thinner coverage.
+- **Long-tail cities suffer.** A small city without an active subreddit has limited coverage. We partially mitigate via `r/travel` / `r/solotravel` searches, but it's not a full substitute for a thriving city-specific community.
+- **No images.** Many Reddit posts have images, but we don't extract from them. A future multimodal upgrade could pull representative photos from linked sources.
+- **Rate limits without auth.** Unauthenticated Reddit access is capped around 60 requests/minute. Sufficient for current use given our caching, but registering a Reddit OAuth app becomes necessary if traffic scales.
+
+---
+
 ## 2. How it works (data flow)
 
 ```
