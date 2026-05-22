@@ -90,6 +90,7 @@ def safe_reddit(fn):
         try:
             return retrying(*args, **kwargs)
         except Exception as e:
+            print(f"[reddit] {fn.__name__}{args} failed: {e}", flush=True)
             log_failure("reddit", "", f"{fn.__name__}{args} failed: {e}")
             return []
     return wrapper
