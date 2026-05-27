@@ -1,0 +1,72 @@
+{
+  "cached_at": "2026-05-27T10:52:38.419509",
+  "data": {
+    "city": "Hanoi",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Nguyen Sinh (201 Doi Can)",
+          "description": "Highly recommended b\u00e1nh m\u00ec shop where locals go for quality sandwiches with crispy bread, fresh vegetables, and perfectly seasoned fillings."
+        },
+        {
+          "name": "B\u00e1nh M\u00ec from Local Grandmas",
+          "description": "Street vendors selling b\u00e1nh m\u00ec th\u1eadp c\u1ea9m (mixed b\u00e1nh m\u00ec) with meat, sausage, and fried egg, often grilled in a contact grill for extra flavor."
+        },
+        {
+          "name": "Cha C\u00e1 Restaurants",
+          "description": "Traditional Hanoi specialty featuring turmeric fish served with herbs, noodles, and dipping sauce - a beloved local dish that locals consistently recommend."
+        },
+        {
+          "name": "Bun Cha Stands",
+          "description": "Popular Hanoi street food featuring grilled pork patties served with noodles and fresh herbs, a classic local favorite mentioned repeatedly by visitors."
+        },
+        {
+          "name": "Local Neighborhood Food Crowds",
+          "description": "Follow locals and eat wherever the biggest crowds gather in each neighborhood, ensuring you experience authentic, competition-tested food that locals prefer."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Trang An Waterway (Hao Lu)",
+          "description": "A stunning waterway featuring boat tours through tunnels and past temples, offering incredible views of limestone karsts and traditional Vietnamese culture."
+        },
+        {
+          "name": "Pu Luong",
+          "description": "A rural area in northern Vietnam known for its picturesque rice paddies and farmland, offering an immersive experience in agricultural traditions and natural beauty."
+        },
+        {
+          "name": "Ban Gioc Waterfalls (Cao Bang)",
+          "description": "Vietnam's famous transnational waterfall shared with China, located in the remote northeast frontier province of Cao Bang with dramatic natural landscapes."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Train Street",
+          "description": "Historic Hanoi landmark where a narrow-gauge train passes through a residential neighborhood, creating a unique and photogenic urban scene that has changed significantly over decades."
+        },
+        {
+          "name": "Old City Temples and Downtown",
+          "description": "The old city area features beautiful picturesque temples and stunning lighting at night, perfect for atmospheric photography along the waterfront."
+        },
+        {
+          "name": "Hanoi Street Fruit Vendors",
+          "description": "Local fruit sellers have become iconic subjects in tourist photography, capturing authentic Hanoi street life and the vibrant local culture."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Cao Bang Province",
+          "description": "A remote and relatively undiscovered province in Vietnam's northeast frontier bordering China, offering landscapes and authentic experiences beyond traditional tourist attractions."
+        },
+        {
+          "name": "Rural Hanoi Neighborhoods",
+          "description": "Explore beyond the tourist center by wandering through local neighborhoods where you can discover authentic street food, shops, and genuine Hanoi culture."
+        },
+        {
+          "name": "National Day Celebrations (Early September)",
+          "description": "Experience Hanoi just before National Day for an incredible atmosphere with authentic cultural celebrations and city-wide festivities not often seen by regular tourists."
+        }
+      ]
+    }
+  }
+}

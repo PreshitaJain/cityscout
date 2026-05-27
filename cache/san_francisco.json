@@ -1,0 +1,43 @@
+{
+  "cached_at": "2026-05-27T11:02:03.966516",
+  "data": {
+    "city": "San Francisco",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Ocean Beach",
+          "description": "A beautiful coastal spot in San Francisco known for its expansive sandy shores and scenic views. Popular for gathering and experiencing the serene ocean vibes."
+        },
+        {
+          "name": "Golden Gate Park",
+          "description": "One of San Francisco's iconic green spaces featuring diverse landscapes and recreational opportunities. A must-visit destination offering beautiful scenery and outdoor activities."
+        },
+        {
+          "name": "Outer Sunset",
+          "description": "A picturesque neighborhood known for stunning sunset views and serene, beautiful vibes. Perfect for watching sunsets and enjoying peaceful natural scenery."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Golden Gate Bridge",
+          "description": "San Francisco's most iconic landmark offering spectacular photo opportunities. A classic viewpoint that provides stunning vistas of the bridge and bay."
+        },
+        {
+          "name": "Inner Sunset",
+          "description": "A charming neighborhood known for picturesque rainbow views and beautiful natural lighting conditions. A great spot for photography and enjoying serene sunset moments."
+        },
+        {
+          "name": "Chinatown",
+          "description": "A vibrant historic district featuring colorful streets, cultural architecture, and photogenic urban scenes. A popular destination for capturing authentic San Francisco character."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Mission District",
+          "description": "A culturally rich neighborhood in San Francisco known for its unique character and local atmosphere. Offers an authentic experience of the city's diverse community."
+        }
+      ]
+    }
+  }
+}

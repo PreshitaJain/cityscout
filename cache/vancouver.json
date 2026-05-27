@@ -1,0 +1,39 @@
+{
+  "cached_at": "2026-05-27T10:54:55.535011",
+  "data": {
+    "city": "Vancouver",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Vancouver Lookout",
+          "description": "A scenic viewpoint offering panoramic views of Vancouver. Great spot for photos and experiencing the city from above."
+        },
+        {
+          "name": "Grouse Grind",
+          "description": "A popular hiking trail that offers an excellent workout with beautiful views. A favorite for locals looking to explore the natural landscape around Vancouver."
+        },
+        {
+          "name": "Cherry Blossom Trees",
+          "description": "Vancouver's cherry blossoms bloom seasonally and are a stunning natural display throughout the city. Perfect for spring visitors wanting to experience Vancouver's seasonal beauty."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Vancouver Lookout",
+          "description": "A scenic viewpoint offering panoramic views of Vancouver. Perfect for photography and capturing the city skyline."
+        },
+        {
+          "name": "Cherry Blossom Locations",
+          "description": "Various spots throughout Vancouver where cherry blossoms bloom seasonally, creating beautiful photo opportunities. A favorite among local photographers."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Vancouver City Limits Walking Route",
+          "description": "A unique walking path that traces the entire city limits of Vancouver on foot. An adventure for those seeking to explore the boundaries and lesser-known areas of the city."
+        }
+      ]
+    }
+  }
+}

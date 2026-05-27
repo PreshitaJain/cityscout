@@ -1,0 +1,43 @@
+{
+  "cached_at": "2026-05-26T11:28:19.112170",
+  "data": {
+    "city": "Berlin",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Zoologischer Garten",
+          "description": "A major zoo and public garden in Berlin, mentioned as a destination by locals for exploration and observation."
+        },
+        {
+          "name": "Mauerpark Fleamarket",
+          "description": "A popular outdoor market and park area where locals shop for items and spend leisure time, offering a casual Berlin experience."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Berlin Television Tower (Fernsehturm)",
+          "description": "Iconic observation tower offering panoramic views of Berlin with a visitor center. Great for tilt-shift photography and cityscape shots inspired by miniature world aesthetics."
+        },
+        {
+          "name": "Alexanderplatz",
+          "description": "Famous Berlin landmark known for atmospheric views, particularly during special celestial events like blood moons that make striking photography subjects."
+        },
+        {
+          "name": "Berlin skyline from various viewpoints",
+          "description": "Multiple vantage points throughout the city offering beautiful window views and photogenic urban landscapes, as documented by photographers throughout the city."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Ostkreuz S-Bahn Station",
+          "description": "An atmospheric local transit hub where you might encounter wildlife and experience authentic Berlin daily life away from tourist areas."
+        },
+        {
+          "name": "Landsberger Allee area",
+          "description": "A local neighborhood gym area and surrounding district that represents everyday Berlin life in a non-touristy residential section."
+        }
+      ]
+    }
+  }
+}

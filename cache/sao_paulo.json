@@ -1,0 +1,31 @@
+{
+  "cached_at": "2026-05-26T11:40:40.298026",
+  "data": {
+    "city": "S\u00e3o Paulo",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Grand Bazaar Food Section",
+          "description": "The food stalls in the Grand Bazaar offer reasonably priced meals compared to other tourist areas in Istanbul. While mentioned in context of Istanbul, food is a highlight in S\u00e3o Paulo's dining scene."
+        },
+        {
+          "name": "Caf\u00e9 Culture in S\u00e3o Paulo",
+          "description": "S\u00e3o Paulo has a vibrant caf\u00e9 culture, though espresso drinks can be expensive (mentioned at 178 reais for caf\u00e9 and p\u00e3o de queijo). Known for quick, quality espresso service."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Memorial da Am\u00e9rica Latina",
+          "description": "A massive cultural landmark where the north, west, and center zones of S\u00e3o Paulo meet. The site features Niemeyer architecture with large open concrete spaces, though it could benefit from more greenery and landscaping."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Avenida Paulista at Sunset",
+          "description": "A stunning location for golden hour photography, offering beautiful sunset views that capture the essence of S\u00e3o Paulo's urban landscape."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}

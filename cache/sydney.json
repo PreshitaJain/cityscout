@@ -1,0 +1,44 @@
+{
+  "cached_at": "2026-05-27T10:47:28.788838",
+  "data": {
+    "city": "Sydney",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Yum Cha Restaurants (Sydney CBD)",
+          "description": "Chinese yum cha dining establishments in Sydney CBD. A beloved local tradition that represents Sydney's multicultural culinary scene and authentic Chinese cuisine."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Local Parks (Christmas Water Fight Locations)",
+          "description": "Community parks in Sydney where local fire brigades hold annual Christmas parties and water activities. Great for family-friendly outdoor events and community celebrations."
+        },
+        {
+          "name": "Sydney Harbour Foreshore",
+          "description": "The scenic waterfront areas around Sydney Harbour, including views of the Harbour Bridge and Opera House. Popular for walking, ferries, and enjoying the natural beauty of the harbour."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Mrs Macquarie Chair",
+          "description": "An iconic viewpoint offering spectacular views of the Sydney Opera House and Harbour Bridge, especially popular during New Year's Eve fireworks. One of the best photography spots in Sydney with stunning vistas."
+        },
+        {
+          "name": "Sydney Harbour Bridge",
+          "description": "The famous Sydney Harbour Bridge offers impressive views of the harbour and surrounding areas. A must-see landmark with excellent photo opportunities, especially during fireworks and special events."
+        },
+        {
+          "name": "Sydney Opera House",
+          "description": "The world-renowned Sydney Opera House is an iconic architectural marvel and a top tourist destination. Essential photo spot for any first-time visitor to Sydney."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Sandy Beach via Coastal Cliffs Walk",
+          "description": "A scenic beach accessible via a clifftop walk with beautiful coastal scenery and dramatic rock formations. A quieter alternative to main beaches with stunning natural views."
+        }
+      ]
+    }
+  }
+}

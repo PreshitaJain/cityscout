@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-05-26T11:41:49.418969",
+  "data": {
+    "city": "New Orleans",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Ms. Mae's",
+          "description": "A local bar in New Orleans where visitors can grab a drink and enjoy the casual neighborhood atmosphere that makes the city special."
+        },
+        {
+          "name": "Cochon",
+          "description": "A notable restaurant in New Orleans where you might encounter the city's unique characters and eclectic crowd, popular for dining before major events like Mardi Gras."
+        }
+      ],
+      "into_the_wild": [],
+      "gram_worthy_spots": [],
+      "off_the_beaten_path": [
+        {
+          "name": "Neighborhood Streets and Karaoke Bars",
+          "description": "Hidden throughout New Orleans are local homes and bars where you can experience authentic neighborhood culture, from taxidermy-filled living rooms to spontaneous 2 AM karaoke sessions with friendly locals."
+        }
+      ]
+    }
+  }
+}

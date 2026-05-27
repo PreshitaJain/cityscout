@@ -29,7 +29,7 @@ def city_page(request: Request, city: str):
             "index.html",
             {
                 "request": request,
-                "error": f"Couldn't find recommendations for '{city}'. Try a different spelling or city.",
+                "error": f"'{city}' isn't in CityScout's directory yet. We're a hand-curated set of cities — try a major destination like Tokyo, Lisbon, or Paris, and check back as we add more.",
             },
             status_code=404,
         )

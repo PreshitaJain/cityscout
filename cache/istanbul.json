@@ -1,0 +1,40 @@
+{
+  "cached_at": "2026-05-26T11:30:42.486220",
+  "data": {
+    "city": "Istanbul",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Spice Market (Egyptian Bazaar)",
+          "description": "The main spice market offering an incredibly vibrant and overwhelming sensory experience with vendors and traditional Turkish products. A classic Istanbul destination mentioned as a must-see tourist attraction."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Bosphorous Strait",
+          "description": "The scenic strait separating Europe and Asia, offering stunning waterfront views and a quintessential Istanbul experience. Highly photogenic and perfect for experiencing the city's natural geography."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Blue Mosque",
+          "description": "An iconic Istanbul landmark with stunning architecture perfect for photography. One of the most photographed sites in the city."
+        },
+        {
+          "name": "Hagia Sophia",
+          "description": "A magnificent historical structure offering breathtaking interior and architectural details that are popular for photography and sightseeing."
+        },
+        {
+          "name": "Rooftop Restaurants",
+          "description": "Elevated dining venues throughout Istanbul offering panoramic views of the city skyline and Bosphorous, perfect for capturing beautiful photos of the cityscape."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Random Rooftop Locations",
+          "description": "Exploring lesser-known rooftop areas across the city provides unique perspectives and photographic opportunities away from the main tourist crowds."
+        }
+      ]
+    }
+  }
+}

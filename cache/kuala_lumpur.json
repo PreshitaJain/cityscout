@@ -1,0 +1,48 @@
+{
+  "cached_at": "2026-05-27T11:02:39.193266",
+  "data": {
+    "city": "Kuala Lumpur",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Back-alley Village Food Spots",
+          "description": "Local eateries with plastic chairs serving authentic Malaysian cuisine. Described as having some of the best meals with genuine local character."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "KLCC Park",
+          "description": "Urban park near Petronas Twin Towers that is particularly beautiful after dark and unbeatable for viewing the city skyline."
+        },
+        {
+          "name": "Bukit Kiara",
+          "description": "Scenic hilltop location in Kuala Lumpur offering elevated viewpoints of the city and surrounding landscape."
+        },
+        {
+          "name": "Genting Highlands",
+          "description": "Highland destination outside KL that provides stunning panoramic views of the Kuala Lumpur skyline and is known as 'The City of Dreams'."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Petronas Twin Towers",
+          "description": "Iconic skyscrapers in KLCC that are especially photogenic at night, making them a must-capture location for visitors."
+        },
+        {
+          "name": "Brickfields Area",
+          "description": "Neighborhood known for street photography opportunities, including memorable shots of local cats and vibrant street scenes."
+        },
+        {
+          "name": "IG-Worthy Street Art Location",
+          "description": "A discovered street art spot that has gained popularity on Instagram for its aesthetic appeal and photogenic qualities."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Abandoned Mansion at Bukit Kiara",
+          "description": "A mysterious abandoned white mansion project in the Bukit Kiara area that has become an intriguing local landmark and subject of urban exploration curiosity."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "cached_at": "2026-05-26T11:30:33.593612",
+  "data": {
+    "city": "Delhi",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "India Gate",
+          "description": "Iconic monument and gathering spot in Delhi. A major landmark mentioned in the Reddit posts as a central location for public gatherings and protests."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "India Gate",
+          "description": "Historic monument and picturesque location perfect for photography. One of Delhi's most recognizable and photogenic landmarks."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}

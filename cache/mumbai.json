@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-05-26T11:30:25.987434",
+  "data": {
+    "city": "Mumbai",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [],
+      "gram_worthy_spots": [
+        {
+          "name": "Wankhede Stadium",
+          "description": "Mumbai's iconic cricket stadium with a 33,000+ capacity located in the heart of the city. A must-see for sports enthusiasts and those wanting to catch the energy of Indian cricket culture."
+        },
+        {
+          "name": "Marine Drive",
+          "description": "A scenic waterfront area with heavy police presence and great views, popular for evening walks and experiencing Mumbai's coastal beauty."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Jogeshwari East",
+          "description": "A local residential area in eastern Mumbai with authentic neighborhood vibes and everyday local life, though visitors should be cautious of construction hazards in the area."
+        }
+      ]
+    }
+  }
+}

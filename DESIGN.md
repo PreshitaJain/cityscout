@@ -1,7 +1,7 @@
 # CityScout — Design Document
 
-**Last updated:** 2026-05-20
-**Status:** Production-ready CLI. Web deployment pending (step 5).
+**Last updated:** 2026-05-27
+**Status:** Live at https://cityscout-g399.onrender.com — curated directory of 42 cities, pre-built cache architecture (see Pivot section below for why).
 
 ---
 
@@ -60,29 +60,42 @@ CityScout's recommendations are only as credible as their source. We evaluated s
 
 ## 2. How it works (data flow)
 
+### Runtime flow (deployed app)
+
 ```
 User types a city name
        │
        ▼
-Check local cache  ─────►  Hit (< 30 days old)  ─────►  Format & display
-       │                                                       │
-       ▼ Miss                                                   │
-Fetch Reddit content:                                           │
-  - Top 10 posts from r/<city>                                  │
-  - Top 3 comments per r/<city> post                            │
-  - Top 5 search results for <city> in r/travel                 │
-  - Top 5 search results for <city> in r/solotravel             │
-       │                                                        │
-       ▼                                                        │
-Send to Claude (Haiku 4.5) with a forced tool call:             │
-  extract_recommendations(city, categories)                     │
-       │                                                        │
-       ▼                                                        │
-Receive structured dict (shape enforced by tool schema)         │
-       │                                                        │
-       ▼                                                        │
-Save to cache, then format & display ◄──────────────────────────┘
+Look up cache/<city>.json  ───►  Hit  ───►  Format & display
+       │
+       ▼ Miss
+"This city isn't in our directory yet" page
 ```
+
+The deployed app does **not** call Reddit or Claude. It only reads pre-built JSON files from `cache/`, which are committed to the repo.
+
+### Build-time flow (seed_cities.py, local)
+
+```
+Operator runs python seed_cities.py
+       │
+       ▼
+For each city in the curated list:
+  - fetch_top_posts(r/<city>)                            ─┐
+  - fetch_top_comments() for each post                    ├─ requires Reddit access
+  - search_posts in r/travel, r/solotravel                ─┘
+       │
+       ▼
+Send to Claude (Haiku 4.5) with forced tool call
+       │
+       ▼
+Receive structured dict (shape enforced by tool schema)
+       │
+       ▼
+Write cache/<city>.json  ───►  git commit + push  ───►  Render auto-deploys
+```
+
+The seed script runs from a **residential IP** (your laptop). Reddit's unauthenticated JSON endpoints work from residential IPs but return `403 Blocked` from cloud-provider IPs like Render's. The pivot section below explains why we adopted this split.
 
 ---
 
@@ -90,13 +103,16 @@ Save to cache, then format & display ◄─────────────�
 
 | File / Module           | Responsibility                                                                |
 |-------------------------|-------------------------------------------------------------------------------|
-| `cityscout.py`          | All application logic (single file)                                           |
+| `cityscout.py`          | Core library: Reddit fetch, Claude analysis, cache I/O, CLI entry point       |
+| `app.py`                | FastAPI web app. Serves only from `cache/`; no live Reddit or Claude calls    |
+| `seed_cities.py`        | Local build-time script: fetches Reddit + Claude for the curated city list   |
+| `templates/`            | Jinja2 templates (base / index / city)                                       |
+| `cache/<city>.json`     | Per-city result, committed to the repo. Source of truth for the deployed app |
 | `.env`                  | Local secrets (Anthropic API key); never committed                            |
-| `cache/<city>.json`     | Per-city cached results with timestamp; auto-expires at 30 days               |
-| `errors.log`            | Append-only log of failures (Claude parse errors, Reddit failures, retries)   |
-| `.gitignore`            | Excludes `.env`, `cache/`, `errors.log`, `venv/`, Python cache files          |
+| `errors.log`            | Append-only log of seed-time failures (Claude parse errors, Reddit blocks)   |
+| `.gitignore`            | Excludes `.env`, `errors.log`, `venv/`, `.claude/`, Python cache files       |
 
-**Runtime dependencies:** `requests`, `anthropic`, `python-dotenv`, `tenacity`. (TODO: pin in a `requirements.txt` before deploy in step 5.)
+**Runtime dependencies:** `requests`, `anthropic`, `python-dotenv`, `tenacity`, `fastapi`, `uvicorn[standard]`, `jinja2`. Pinned in `requirements.txt`.
 
 ---
 
@@ -106,11 +122,12 @@ All tunable from constants at the top of `cityscout.py`:
 
 | Constant                 | Default                       | What it controls                                              |
 |--------------------------|-------------------------------|---------------------------------------------------------------|
-| `CACHE_TTL_DAYS`         | `30`                          | Days before a cached city result is considered stale          |
-| `POSTS_FROM_CITY_SUB`    | `10`                          | Top posts read from `r/<city>`                                |
-| `POSTS_FROM_SEARCH`      | `5`                           | Search results per additional subreddit                       |
-| `COMMENTS_PER_POST`      | `3`                           | Top comments harvested per `r/<city>` post                    |
+| `POSTS_FROM_CITY_SUB`    | `10`                          | Top posts read from `r/<city>` during seed                    |
+| `POSTS_FROM_SEARCH`      | `5`                           | Search results per additional subreddit during seed           |
+| `COMMENTS_PER_POST`      | `3`                           | Top comments harvested per `r/<city>` post during seed        |
 | `ADDITIONAL_SUBREDDITS`  | `["travel", "solotravel"]`    | Cross-subreddit search sources                                |
+
+In `seed_cities.py`, `SLEEP_BETWEEN_CITIES = 25` throttles the seed to stay under Reddit's effective rate limit. The list of cities to seed lives in the same file.
 
 Internally, the model (`claude-haiku-4-5-20251001`) and `max_tokens` (`2048`) sit inside `analyze_with_claude` and can be lifted to constants if we start tuning them.
 
@@ -124,6 +141,28 @@ Internally, the model (`claude-haiku-4-5-20251001`) and `max_tokens` (`2048`) si
 4. **Richer Reddit input.** Multi-subreddit fetches plus top comments from `r/<city>` posts. Significantly more credible output (specific addresses, hidden gems, day-trip ideas) at the cost of ~13 Reddit requests per fresh query — fully absorbed by the cache.
 5. **Resilience.** Reddit calls retry with exponential backoff on 429/5xx/network errors via `tenacity` (up to 4 attempts, 1s → 2s → 4s → 8s). Final failures log to `errors.log` and return empty results so partial outages never crash the flow. Anthropic SDK retries bumped from 2 to 5.
 6. **Observability (phase 1).** All failures land in `errors.log` with timestamp, context, and offending response. Production observability (Sentry) deferred — see roadmap.
+
+---
+
+## Pivot: from live fetch to pre-built cache
+
+After shipping the FastAPI web app to Render, fresh-city searches started failing in production with `403 Blocked`. **Reddit aggressively blocks cloud-provider IP ranges** (Render, AWS, GCP, etc.) on its unauthenticated JSON endpoints — even though the same endpoints work fine from residential IPs. Our laptop-side tests passed, the deployed app didn't.
+
+The standard workaround is OAuth-authenticated Reddit access (the rate-limited 60/min unauth endpoints have a more permissive OAuth twin). But Reddit's **2024 Responsible Builder Policy** restricts new Data API app approvals to "valid moderation use cases" only. CityScout — a travel recommendation tool — does not qualify. Re-attempting registration would be a TOS violation. (See memory entry `cityscout-reddit-api-blocked.md`.)
+
+That closed every direct Reddit fix. We considered:
+
+- **Run the fetcher from a residential IP (e.g. an always-on home machine):** kept "search any city" feel, but brittle — your laptop sleeps and the site breaks.
+- **Paid residential-IP proxy** (ScraperAPI etc.): cleanest technically, ~$30/mo ongoing cost.
+- **Pre-build the cache locally and commit it:** lowest moving parts, zero ongoing cost, scope reduces from "any city" → "curated directory."
+
+We picked the third. The reframe — "carefully curated travel guides for 42 cities" — is honestly a *stronger* product positioning than "type anything, hope it works," and removes a class of production failures entirely. The deployed app reads only from committed JSON; it can never get blocked by Reddit because it never calls Reddit.
+
+**What this means architecturally:**
+- The web app at `app.py` calls `get_recommendations(city)`, which reads `cache/<city>.json` and returns the dict — nothing else. Cache misses return a friendly directory message.
+- `seed_cities.py` is the build-time process: run locally, fetch + analyze each city, write cache files, commit, push. Render auto-deploys with the new cache.
+- `CACHE_TTL_DAYS` was removed — cache is canonical, refreshed manually by re-running `seed_cities.py`.
+- New cities are added by editing the `CITIES` list in `seed_cities.py` and re-running.
 
 ---
 
@@ -237,13 +276,14 @@ Not on the immediate roadmap, but worth filing for later.
 
 ## 10. Known limitations (today)
 
+- **Curated directory only.** The deployed app serves 42 hand-seeded cities. Cache misses get a friendly "not in directory" page, not a live result. Adding a new city requires running `seed_cities.py` locally and pushing the resulting cache file.
+- **No live refresh.** Cache files don't auto-update — recommendations age with the cache. Re-running `seed_cities.py` (and committing the new cache) is the only refresh path.
+- **Reddit IP block in production.** The deployed app cannot fetch from Reddit at all; that's why we pre-build. If we ever obtain authenticated Reddit access (currently denied by Reddit's policy), live fetch could return.
 - **Single-city interaction.** No flow for multi-city trips, comparisons, or itineraries.
-- **English Reddit only.** Cities with primarily non-English Reddit activity yield thinner results.
-- **Long-tail cities suffer.** A small city without a thriving subreddit relies almost entirely on `r/travel` and `r/solotravel` search hits, which can be sparse.
+- **English Reddit only.** Cities with primarily non-English Reddit activity yield thinner results during seed.
 - **No personalization.** All users see the same recommendations for a given city.
 - **Fixed category set.** Four categories — fine for now; may be too narrow for some segments (e.g. families, business travelers).
 - **No feedback loop.** No "I went here" or thumbs-up signals — we don't know yet which recommendations are actually good.
-- **Cache doesn't track who searched.** Fine while there's no concept of users; will need rethinking once accounts exist.
 
 ---
 

@@ -1,0 +1,26 @@
+{
+  "cached_at": "2026-05-27T11:00:54.846565",
+  "data": {
+    "city": "Anchorage",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Whale and Orca Watching in Juneau Bay",
+          "description": "Experience seeing whales and orcas in the bay near Juneau, just a short flight from Anchorage. Visitors report this as unforgettable beauty and a must-see natural wonder."
+        }
+      ],
+      "gram_worthy_spots": [],
+      "off_the_beaten_path": [
+        {
+          "name": "Barrow/Utqiagvik",
+          "description": "The northernmost settlement in the United States with only 5,000 people, accessible by one daily flight from Anchorage. A remote destination offering stunning photos and unique cultural experiences."
+        },
+        {
+          "name": "Adak, Alaska",
+          "description": "A remote Alaskan island accessible by flight through Anchorage, offering a 4-day adventure off the typical tourist trail. Reachable via Alaska Airlines with mile deals for affordable travel."
+        }
+      ]
+    }
+  }
+}

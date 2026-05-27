@@ -1,0 +1,31 @@
+{
+  "cached_at": "2026-05-26T11:31:49.652818",
+  "data": {
+    "city": "Amsterdam",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Park Somerlust",
+          "description": "A waterfront park in Amsterdam where you can spot local wildlife like seals swimming in the water. A peaceful natural spot perfect for observing Amsterdam's local fauna."
+        },
+        {
+          "name": "Haarlemmerdijk",
+          "description": "A historic Amsterdam street that showcases the city's transformation from a car-centric area in the 1970s to a pedestrian and cyclist-friendly zone. A great example of urban development and cycling culture."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Haarlemmerdijk",
+          "description": "A picturesque Amsterdam street that captures the essence of the city's cycling culture and urban design. Known for its transformation story and photogenic street scenes reflecting local life."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Park Somerlust",
+          "description": "A local waterfront park in Amsterdam where seals have been spotted in the water, offering an unexpected wildlife experience in an urban setting. A lesser-known natural gem for observing Amsterdam's wildlife."
+        }
+      ]
+    }
+  }
+}

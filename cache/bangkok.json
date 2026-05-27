@@ -1,0 +1,22 @@
+{
+  "cached_at": "2026-05-26T11:30:08.209129",
+  "data": {
+    "city": "Bangkok",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Bangkok Sky Buffet",
+          "description": "Located on the 76th floor of Baiyoke Hotel, this high-altitude buffet restaurant offers panoramic views of Bangkok while dining. A great spot for both food and sightseeing combined."
+        }
+      ],
+      "into_the_wild": [],
+      "gram_worthy_spots": [
+        {
+          "name": "Bangkok Photospot (Road Photography Location)",
+          "description": "A scenic road photography location that requires at least a 600mm lens to capture properly, known for its weather-dependent and dramatic lighting conditions. Popular among photography enthusiasts seeking to recreate specific aerial perspectives of Bangkok."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}

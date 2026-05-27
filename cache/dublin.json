@@ -1,0 +1,43 @@
+{
+  "cached_at": "2026-05-27T10:50:51.716568",
+  "data": {
+    "city": "Dublin",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "St. Stephen's Green",
+          "description": "A lovely urban park in the heart of Dublin city center with scenic views and a peaceful seagull pond. Perfect for relaxing and enjoying the greenery amid the bustling city."
+        },
+        {
+          "name": "Howth",
+          "description": "A coastal town near Dublin with highly recommended hiking trails that offer amazing views and the opportunity to explore a charming seaside village afterward. Absolutely worth visiting for outdoor enthusiasts."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Samuel Beckett Bridge",
+          "description": "An iconic Dublin bridge with beautiful lighting displays that are particularly striking at night. One of Dublin's favorite photogenic landmarks."
+        },
+        {
+          "name": "Dublin from the International Station",
+          "description": "A viewpoint offering stunning aerial views of the entire Dublin cityscape with zero clouds on clear days. Fascinating perspective of the city at scale."
+        },
+        {
+          "name": "Aungier Street",
+          "description": "A Dublin street location that transforms into an oil painting-like scene during rainy weather, offering unique photographic opportunities worthy of Monet."
+        },
+        {
+          "name": "Sandymount",
+          "description": "A charming Dublin neighborhood known for street art and local character, offering glimpses of community spirit and hopeful messages throughout the area."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Dublin City Centre on Christmas Day",
+          "description": "Experience the peaceful, quiet beauty of Dublin's city center on Christmas Day when the crowds are gone, offering a unique and serene perspective of the city."
+        }
+      ]
+    }
+  }
+}

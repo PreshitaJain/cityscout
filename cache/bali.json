@@ -1,0 +1,51 @@
+{
+  "cached_at": "2026-05-27T10:51:59.096049",
+  "data": {
+    "city": "Bali",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Tegukopi",
+          "description": "A cafe located in Kintamani with excellent views. Known for being a favorite spot with great photo opportunities."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Jerman Beach",
+          "description": "A scenic beach in Bali known for fantastic sunset and sun-aligned photography opportunities."
+        },
+        {
+          "name": "Kintamani",
+          "description": "A mountainous area in Bali known for its volcano views and natural landscape, described as the best area in Bali by visitors."
+        },
+        {
+          "name": "Ubud Rice Fields",
+          "description": "Central Bali area famous for its iconic rice terraces and waterfalls, a highlight of the island's natural attractions."
+        },
+        {
+          "name": "Bali Waterfalls",
+          "description": "Multiple scenic waterfall locations throughout Bali offering beautiful coastal lines and nature experiences."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Tegukopi Cafe, Kintamani",
+          "description": "A Instagram-worthy cafe in Kintamani with stunning volcano views and excellent photo opportunities."
+        },
+        {
+          "name": "Jerman Beach",
+          "description": "Picturesque beach location perfect for capturing sun-aligned shots and golden hour photography."
+        },
+        {
+          "name": "Ubud Rice Terraces",
+          "description": "Iconic terraced rice fields in Ubud that are highly photogenic and represent classic Bali imagery."
+        },
+        {
+          "name": "Uluwatu Cliffs",
+          "description": "Dramatic cliff formations offering spectacular viewpoint photography and scenic coastal vistas."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}

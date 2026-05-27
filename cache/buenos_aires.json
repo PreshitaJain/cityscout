@@ -1,0 +1,40 @@
+{
+  "cached_at": "2026-05-26T11:40:32.312285",
+  "data": {
+    "city": "Buenos Aires",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Local neighborhood restaurants and cafes",
+          "description": "Buenos Aires offers numerous traditional cafes and restaurants throughout the city. Many travelers recommend exploring the local dining scene and eating 'a ton' during their visits, with classic plazas featuring old-style cafes perfect for experiencing authentic Buenos Aires culture."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "El Palmar National Park",
+          "description": "Located in the Paran\u00e1 region near Buenos Aires, this national park features distinctive Yatay palm trees and scenic landscapes, making it a great nature destination for day trips from the city."
+        },
+        {
+          "name": "Perito Moreno National Park",
+          "description": "Located in Patagonia accessible from Buenos Aires, this park features stunning glaciers and natural landscapes that visitors describe as 'one of the most impressive' in Argentina."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Buenos Aires city boulevards and plazas",
+          "description": "The city features wide boulevards, ornate facades, and classic plazas with elegant European-style architecture that creates photogenic moments, particularly during rainy weather walks."
+        },
+        {
+          "name": "Historic cafes",
+          "description": "Buenos Aires is filled with old, atmospheric cafes that offer perfect Instagram-worthy locations with classic Argentine charm and vintage aesthetics."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Rosario",
+          "description": "A nearby city visited by travelers exploring beyond Buenos Aires proper, offering an alternative perspective to the capital with its own character and attractions."
+        }
+      ]
+    }
+  }
+}

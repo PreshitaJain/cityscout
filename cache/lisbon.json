@@ -1,0 +1,64 @@
+{
+  "cached_at": "2026-05-26T11:27:34.060581",
+  "data": {
+    "city": "Lisbon",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Casa do Alentejo",
+          "description": "A restaurant hidden behind a door on Rua das Portas de Santo Ant\u00e3o, one of Lisbon's busiest streets near the famous ginginha bars. It features a full dining establishment serving traditional Portuguese cuisine."
+        },
+        {
+          "name": "Ginginha Bars",
+          "description": "Traditional bars located on Rua das Portas de Santo Ant\u00e3o serving ginginha, a famous Portuguese cherry liqueur. A local favorite for a quick traditional drink experience."
+        },
+        {
+          "name": "Pastel de Nata",
+          "description": "Portugal's incredible pastries, particularly the famous Pastel de Nata (custard tarts), are a must-try. These sweet treats are beloved throughout Lisbon and well worth seeking out."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Alfama Waterfront",
+          "description": "The charming waterfront area of Alfama is perfect for biking and exploring. The neighborhood offers beautiful paths along the water with stunning riverside views."
+        },
+        {
+          "name": "Castelo de S\u00e3o Jorge",
+          "description": "A hilltop castle that rises above the Alfama rooftops with commanding views over Lisbon, the Tagus River, and the cascading pastel-colored buildings with red tile roofs."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Alfama Neighborhood",
+          "description": "The old historic neighborhood with cascading pastel-colored buildings, red tile roofs, steep streets, and charming tiled buildings that photograph beautifully from multiple angles."
+        },
+        {
+          "name": "Castelo de S\u00e3o Jorge Viewpoint",
+          "description": "One of Lisbon's most spectacular observation decks offering gorgeous views of the castle rising above Alfama rooftops, the Tagus River, and the warm light catching red tiles."
+        },
+        {
+          "name": "Lisbon Street Art Spots",
+          "description": "Throughout the city you can find impressive street art by renowned artists like Ogringo and OzeArv. Portugal has excellent street art that makes for great photographic moments."
+        },
+        {
+          "name": "Pr\u00edncipe Real Neighborhood",
+          "description": "A lively neighborhood worth exploring on foot, featuring charming corners, tiled buildings, and atmospheric streets perfect for capturing the essence of Lisbon's character."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Lisbon's Oldest House (XVII Century)",
+          "description": "Tucked away from the main tourist routes on a quiet street, this 17th-century house has survived the 1755 earthquake, multiple rebuilds, and centuries of change. Now part of the cityscape, it represents living history."
+        },
+        {
+          "name": "Underground Fado Sessions in Alfama",
+          "description": "Local hosts in Alfama's old neighborhood occasionally run intimate, underground fado music sessions in their homes. These authentic Portuguese musical experiences offer genuine cultural immersion away from tourist venues."
+        },
+        {
+          "name": "Monsanto",
+          "description": "A uniquely beautiful small sleepy town about 4 hours from Lisbon near the Spain border, featuring houses built into and under massive boulders. An off-the-beaten-path gem that delights at every corner."
+        }
+      ]
+    }
+  }
+}

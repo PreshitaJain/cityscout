@@ -20,7 +20,6 @@ CATEGORY_LABELS = {
 }
 
 CACHE_DIR = Path("cache")
-CACHE_TTL_DAYS = 30
 
 REDDIT_HEADERS = {"User-Agent": "cityscout/1.0"}
 ADDITIONAL_SUBREDDITS = ["travel", "solotravel"]
@@ -90,7 +89,6 @@ def safe_reddit(fn):
         try:
             return retrying(*args, **kwargs)
         except Exception as e:
-            print(f"[reddit] {fn.__name__}{args} failed: {e}", flush=True)
             log_failure("reddit", "", f"{fn.__name__}{args} failed: {e}")
             return []
     return wrapper
@@ -104,10 +102,6 @@ def load_from_cache(city):
         return None
     with open(path) as f:
         entry = json.load(f)
-    cached_at = datetime.datetime.fromisoformat(entry["cached_at"])
-    age_days = (datetime.datetime.now() - cached_at).days
-    if age_days > CACHE_TTL_DAYS:
-        return None
     return entry["data"]
 
 def save_to_cache(city, data):
@@ -160,12 +154,13 @@ def fetch_top_comments(subreddit, post_id, limit):
             break
     return bodies
 
-def fetch_reddit_posts(city):
+def fetch_reddit_posts(city, subreddit=None):
+    sub = subreddit or city
     sections = []
 
-    city_posts = fetch_top_posts(city, POSTS_FROM_CITY_SUB)
+    city_posts = fetch_top_posts(sub, POSTS_FROM_CITY_SUB)
     if city_posts:
-        sections.append(f"=== From r/{city} ===")
+        sections.append(f"=== From r/{sub} ===")
         for post in city_posts:
             title = post.get("title", "")
             selftext = post.get("selftext", "")[:200]
@@ -174,7 +169,7 @@ def fetch_reddit_posts(city):
             if selftext:
                 sections.append(f"  Body: {selftext}")
             if post_id:
-                for comment in fetch_top_comments(city, post_id, COMMENTS_PER_POST):
+                for comment in fetch_top_comments(sub, post_id, COMMENTS_PER_POST):
                     sections.append(f"  Comment: {comment[:300]}")
 
     for sub in ADDITIONAL_SUBREDDITS:
@@ -237,12 +232,12 @@ def format_result(data):
                 lines.append(f"• {place['name']} — {place['description']}")
     return "\n".join(lines)
 
-def get_recommendations(city):
+def get_recommendations(city, subreddit=None):
     cached = load_from_cache(city)
     if cached:
         return cached
 
-    posts_text = fetch_reddit_posts(city)
+    posts_text = fetch_reddit_posts(city, subreddit=subreddit)
     if not posts_text:
         return None
 

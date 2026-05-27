@@ -1,0 +1,48 @@
+{
+  "cached_at": "2026-05-26T11:27:21.182056",
+  "data": {
+    "city": "Tokyo",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Tonkatsu Restaurant in Asakusa",
+          "description": "A tonkatsu (breaded pork cutlet) restaurant located in the historic Asakusa district, a popular dining destination that reflects Tokyo's traditional neighborhood charm."
+        },
+        {
+          "name": "Tsukiji Fish Market",
+          "description": "A renowned fresh fish market area in Tokyo where visitors can experience authentic seafood and traditional Japanese market culture."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Meiji-Jingu",
+          "description": "A serene Shinto shrine surrounded by a peaceful forested area in the heart of Tokyo, offering a natural retreat from the bustling city."
+        },
+        {
+          "name": "Chureito Pagoda & Kawaguchiko Lake Area",
+          "description": "A scenic day trip destination from Tokyo featuring the iconic red pagoda and stunning lake views, popular for photography and nature appreciation."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Tokyo Skytree in Winter",
+          "description": "An iconic observation tower that offers spectacular views during first snow, with beautiful photo opportunities capturing Tokyo's skyline against snowy weather."
+        },
+        {
+          "name": "Shibuya Crossing",
+          "description": "The world-famous pedestrian crossing known for its bustling energy and iconic urban landscape, a must-photograph location in Tokyo."
+        },
+        {
+          "name": "Takeshita Street",
+          "description": "A vibrant, pedestrian-friendly shopping street in Harajuku known for its colorful shops, trendy fashion, and visually stunning street atmosphere."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Shin Matsudo",
+          "description": "A lesser-known area in Tokyo mentioned for its quiet charm and local character, offering an authentic experience away from the main tourist crowds."
+        }
+      ]
+    }
+  }
+}

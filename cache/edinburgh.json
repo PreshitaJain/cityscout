@@ -1,0 +1,38 @@
+{
+  "cached_at": "2026-05-27T10:51:25.202447",
+  "data": {
+    "city": "Edinburgh",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Arthur's Seat",
+          "description": "A prominent volcanic hill and popular hiking destination offering stunning views of Edinburgh and the surrounding landscape. The climb attracts many visitors and provides excellent photo opportunities from the summit."
+        },
+        {
+          "name": "The Meadows",
+          "description": "A large green space in central Edinburgh that is particularly beautiful in foggy conditions and offers a peaceful escape in the heart of the city. Great for walks and enjoying nature within the urban area."
+        },
+        {
+          "name": "Thistle Foundation in Craigmillar",
+          "description": "A scenic location that offers beautiful morning views, particularly in foggy conditions. Located in a quieter part of Edinburgh away from the main tourist areas."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Victoria Street",
+          "description": "A charming and picturesque street that inspired the design of Diagon Alley in the Harry Potter films. The colorful architecture and medieval character make it a must-visit photo spot."
+        },
+        {
+          "name": "Dean Village",
+          "description": "A picturesque area featuring medieval architecture and charming buildings nestled below the city center. Perfect for photography enthusiasts interested in historical Edinburgh."
+        },
+        {
+          "name": "Arthur's Seat Summit",
+          "description": "The top of this volcanic hill provides spectacular panoramic views of Edinburgh and surrounding areas, making it an excellent location for memorable photographs."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}

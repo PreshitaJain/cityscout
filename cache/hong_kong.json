@@ -1,0 +1,36 @@
+{
+  "cached_at": "2026-05-26T11:41:12.144516",
+  "data": {
+    "city": "Hong Kong",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Pei Ho Street Market",
+          "description": "A historic local market in Sham Shui Po featuring traditional street food and local vendors. Home to the famous Sun Rise Co. handmade umbrella shop, this area offers authentic Hong Kong market culture and dining experiences."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Kowloon Walled City Park",
+          "description": "A historical park that combines traditional Chinese garden design with the unique heritage of the former walled city. Offers a glimpse into Hong Kong's complex history and provides a green escape in the urban environment."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Victoria Peak & Harbour Views",
+          "description": "One of Hong Kong's most iconic viewpoints offering impressive skyline views and the stunning blend of east-west architecture. Perfect for capturing the city's distinctive silhouette, especially beautiful at night."
+        },
+        {
+          "name": "Hong Kong Airport Approach Views",
+          "description": "Offers dramatic views of the city skyline and nearby Shenzhen's KK100, with stunning vistas visible from the bus route heading into the city. A unique perspective showcasing Hong Kong's landscape and urban development."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Tai Po Area",
+          "description": "A local neighborhood in Hong Kong that offers opportunities to explore everyday community life and volunteer-organized local initiatives. Provides insight into residential Hong Kong beyond typical tourist attractions."
+        }
+      ]
+    }
+  }
+}

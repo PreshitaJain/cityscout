@@ -1,0 +1,39 @@
+{
+  "cached_at": "2026-05-26T11:28:28.634548",
+  "data": {
+    "city": "Chicago",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Chicago Food Scene (General)",
+          "description": "Chicago is known for amazing food with tons of options available throughout the city. Visitors praise the diverse and fantastic culinary offerings across different neighborhoods."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Lake Michigan & Waterfront",
+          "description": "A scenic natural area where visitors can enjoy views of the lake, including photogenic spots like catching rainbows reflecting on the water near the Metra and expressway."
+        },
+        {
+          "name": "Parks (General)",
+          "description": "Chicago has well-maintained parks that were notably clean during recent community events, with accessible green spaces for walking and enjoying the city."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "The Chicago Loop (Architectural Views)",
+          "description": "An iconic Chicago location that offers classic urban imagery, including views of the L train and downtown architecture that's popular for photography and art inspiration."
+        },
+        {
+          "name": "Lake Michigan Rainbow Spots",
+          "description": "Scenic waterfront areas near the Metra and expressway where dramatic weather events create stunning photo opportunities with lightning and rainbows reflecting on the water."
+        },
+        {
+          "name": "Michigan Avenue & Downtown Chicago",
+          "description": "Major downtown corridor with significant landmarks and public spaces that serve as popular gathering points and photogenic locations for visitors."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}

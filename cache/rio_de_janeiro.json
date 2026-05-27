@@ -1,0 +1,59 @@
+{
+  "cached_at": "2026-05-26T11:40:50.743580",
+  "data": {
+    "city": "Rio de Janeiro",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Ipanema Beach",
+          "description": "One of Rio's most famous beaches, a vibrant spot perfect for swimming and enjoying the iconic Rio beach culture. Highly recommended for both relaxation and people-watching."
+        },
+        {
+          "name": "Copacabana Beach",
+          "description": "Another iconic Rio beach offering beautiful seaside views and a lively atmosphere. Great for experiencing the classic Rio beach experience."
+        },
+        {
+          "name": "Selar\u00f3n Steps",
+          "description": "A colorful outdoor attraction featuring hand-painted steps that create a stunning visual experience. A popular hike destination with great photo opportunities."
+        },
+        {
+          "name": "Maracan\u00e3 Stadium",
+          "description": "Historic football stadium in Rio where you can watch matches between teams like Flamengo and Vasco. An authentic way to experience Rio's sports culture."
+        },
+        {
+          "name": "Corcovado/Cristo Redentor",
+          "description": "The famous Christ the Redeemer statue with panoramic views of Rio. Can be visited via cable car or helicopter ride for an unforgettable sightseeing experience."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "P\u00e3o de A\u00e7\u00facar (Sugarloaf Mountain)",
+          "description": "Iconic Rio landmark offering spectacular views and photogenic vistas. A must-visit spot for capturing stunning Rio scenery."
+        },
+        {
+          "name": "Cristo Redentor Above the Clouds",
+          "description": "The Christ the Redeemer statue photographed above a sea of clouds creates a surreal and breathtaking image. Perfect for dramatic landscape photography."
+        },
+        {
+          "name": "Ipanema Neighborhood",
+          "description": "Walkable neighborhood with excellent architecture, cafes, and parks. A picturesque area known for its charming streets and vibrant atmosphere."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Petropolis",
+          "description": "A nearby mountain town worth visiting for a day trip from Rio. Offers a different perspective and escape from the main city."
+        },
+        {
+          "name": "Teresopolis",
+          "description": "Another nearby mountain destination accessible from Rio, offering an alternative experience outside the main tourist areas."
+        },
+        {
+          "name": "Niteroi",
+          "description": "A city across from Rio known for being more tranquil and peaceful than the main city. A quieter alternative for those seeking a calmer vibe."
+        }
+      ]
+    }
+  }
+}

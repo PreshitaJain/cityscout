@@ -1,0 +1,64 @@
+{
+  "cached_at": "2026-05-27T10:53:52.560825",
+  "data": {
+    "city": "Seoul",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "A Twosome Place",
+          "description": "A cafe chain located in Jongno District (201-1 \uc885\ub85c) where visitors can experience local Seoul cafe culture. Note that English may not be widely spoken here, so having a translation app handy is recommended."
+        },
+        {
+          "name": "Late Night Food Spots",
+          "description": "Seoul is known for its vibrant late-night food scene blending traditional and modern cuisine. The city offers excellent dining options that operate well into the evening, perfect for experiencing local food culture."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Han River Park (Hangang Park)",
+          "description": "A scenic riverside park where locals relax by the water. The Han River flows through the heart of Seoul, and the park offers a peaceful escape from the busy city with beautiful sunset views."
+        },
+        {
+          "name": "Yeouido Hangang Park",
+          "description": "Located in the Yeongdeungpo area, this park is part of Seoul's extensive green spaces that provide a relaxing environment for walking and enjoying nature within the city."
+        },
+        {
+          "name": "Yeouido Saetgang Ecological Park",
+          "description": "A quiet, peaceful natural space just a five-minute walk from Yeongdeungpo hotels. This ecological park showcases Seoul's commitment to maintaining green spaces throughout the dense city."
+        },
+        {
+          "name": "Inwangsan Trail",
+          "description": "A hiking trail in Seoul that offers outdoor exploration and natural scenery. The trail is accessible and provides a good escape into nature from the urban environment."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Gwanghwamun Square in Winter",
+          "description": "A stunning location that becomes a winter masterpiece when snow falls, creating beautiful photogenic moments. The square transforms into a scenic backdrop for photography throughout the seasons."
+        },
+        {
+          "name": "Han River Sunset Views",
+          "description": "Iconic sunset photography spot along the Han River with beautiful golden hour lighting. This location captures Seoul's blend of natural beauty and urban landscape."
+        },
+        {
+          "name": "Seoul Neon-Lit Streets",
+          "description": "Purple-tinted alleyways and neon-lit streets create cyberpunk-inspired photography opportunities throughout Seoul's neighborhoods. These heavily atmospheric areas are popular for moody night photography."
+        },
+        {
+          "name": "A Convenience Store Near Inwangsan",
+          "description": "A 7/11 convenience store that has become a viral photo spot on social media, located next to the start of the Inwangsan trail. It's become a popular Instagram location despite being an unconventional subject."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Yeongdeungpo District",
+          "description": "A less touristy area with cheap hotels and quiet green spaces. This neighborhood offers a more authentic local experience away from Seoul's main tourist routes."
+        },
+        {
+          "name": "Seoul Neighborhood Wandering",
+          "description": "Exploring Seoul's various neighborhoods on foot reveals the city's seamless blend of centuries-old palaces and futuristic buildings. Getting lost in different areas provides authentic local encounters."
+        }
+      ]
+    }
+  }
+}

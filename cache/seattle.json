@@ -1,0 +1,34 @@
+{
+  "cached_at": "2026-05-26T11:29:06.472789",
+  "data": {
+    "city": "Seattle",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [],
+      "gram_worthy_spots": [
+        {
+          "name": "Pike Street",
+          "description": "A vibrant downtown street known for public art displays and street projections, including political art installations that reflect Seattle's creative activism."
+        },
+        {
+          "name": "Pacific Place",
+          "description": "A downtown shopping and gathering area that serves as a central location for public demonstrations and people-watching in Seattle."
+        },
+        {
+          "name": "Red Square at UW",
+          "description": "The iconic University of Washington campus plaza known for its distinctive red-colored paving and as a hub for student activities and gatherings."
+        },
+        {
+          "name": "Third Avenue",
+          "description": "A downtown street featured for its public art projections and light displays that capture Seattle's activist spirit and creative community."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Federal Building area (915 2nd Avenue)",
+          "description": "A notable downtown location that serves as a gathering point for community vigils and peaceful assemblies reflecting Seattle's civic engagement."
+        }
+      ]
+    }
+  }
+}

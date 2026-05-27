@@ -1,0 +1,56 @@
+{
+  "cached_at": "2026-05-26T11:28:09.690385",
+  "data": {
+    "city": "Barcelona",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Local Tapas Bars",
+          "description": "Barcelona's vibrant bar scene offers authentic tapas dining experiences. Perfect for solo travelers or groups looking to share tables and enjoy traditional Spanish cuisine with wine."
+        },
+        {
+          "name": "Barceloneta Beach Area Restaurants",
+          "description": "The beachfront Barceloneta neighborhood offers dining options with views of the Mediterranean. Known for fresh seafood and local dining atmosphere."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Jard\u00ed Bot\u00e0nic Marimurtra",
+          "description": "A beautiful botanical garden located right by the sea in Blanes, just a couple hours drive from Barcelona. Features Mediterranean flora with stunning coastal views and worth combining with nearby Tossa de Mar."
+        },
+        {
+          "name": "Tossa de Mar",
+          "description": "A scenic coastal destination just a short drive from Jard\u00ed Bot\u00e0nic Marimurtra. Beautiful beaches and charming seaside town perfect for a day trip from Barcelona."
+        },
+        {
+          "name": "Mountain trails near Rupit",
+          "description": "Beautiful hiking and outdoor opportunities in the Catalan mountains, about an hour and a half from Barcelona city center. Great for experiencing nature and mountain scenery."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Sagrada Fam\u00edlia",
+          "description": "Gaud\u00ed's iconic basilica and one of Barcelona's most photographed landmarks. Recently completed with its tallest tower finished, offering stunning architecture for photos."
+        },
+        {
+          "name": "Aerial viewpoints of Barcelona neighborhoods",
+          "description": "Various rooftop and elevated locations throughout Barcelona offer incredible bird's-eye views of the city's unique architecture and neighborhoods, perfect for capturing the city's layout and character."
+        },
+        {
+          "name": "Gaud\u00ed's architectural landmarks",
+          "description": "Barcelona's famous modernist buildings by Antoni Gaud\u00ed provide stunning photogenic locations throughout the city. These architectural masterpieces are visually spectacular."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Rupit - Medieval Mountain Town",
+          "description": "A charming and beautiful small medieval town in the Catalan mountains about an hour and a half from Barcelona. Features narrow streets, character, and a historic bell tower (\u20ac2 to climb) offering panoramic views."
+        },
+        {
+          "name": "Residential neighborhoods with local character",
+          "description": "Hidden pockets of Barcelona's residential areas offer authentic local life and unique photography opportunities away from the main tourist circuits. These areas showcase the real character of Barcelona neighborhoods."
+        }
+      ]
+    }
+  }
+}

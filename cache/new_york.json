@@ -1,0 +1,40 @@
+{
+  "cached_at": "2026-05-27T11:01:29.106326",
+  "data": {
+    "city": "New York",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Street Halal Cart",
+          "description": "A beloved halal cart vendor on 14th St in New York, known for lamb over salad with extra white and hot sauce. A local favorite with personalized service."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "WTC Memorial",
+          "description": "A serene and reflective outdoor memorial at the World Trade Center with beautiful views, especially atmospheric during snowfall."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "The Metropolitan Museum of Art Steps",
+          "description": "The iconic Met steps are a photogenic location perfect for painting and photography, offering gorgeous views and artistic inspiration."
+        },
+        {
+          "name": "WTC Memorial in Snow",
+          "description": "The World Trade Center Memorial becomes especially picturesque and spiritually beautiful during snowstorms, creating a contemplative atmosphere."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Gracie Mansion Walking Route from City Hall",
+          "description": "A six-mile walking path from City Hall to Gracie Mansion that offers a local perspective of New York neighborhoods and community interactions."
+        },
+        {
+          "name": "Bed-Stuy NYCHA Neighborhoods",
+          "description": "A residential area in Brooklyn known for its community character and local interactions, offering authentic New York neighborhood experiences."
+        }
+      ]
+    }
+  }
+}

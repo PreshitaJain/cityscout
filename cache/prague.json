@@ -1,0 +1,76 @@
+{
+  "cached_at": "2026-05-27T10:48:41.237133",
+  "data": {
+    "city": "Prague",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "U Prezident\u016f",
+          "description": "A local pub that requires cash only with staff who rarely speak English, preserving an authentic Czech drinking experience away from tourist areas."
+        },
+        {
+          "name": "Prague Beer Halls",
+          "description": "Traditional Czech beer halls loved by travelers for their authentic atmosphere and local beer culture."
+        },
+        {
+          "name": "Naplavka Riverside Bars",
+          "description": "Heated bars under the arches along the riverside offering cozy, lively atmosphere perfect for winter visits."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Letn\u00e1 Park",
+          "description": "Wide, peaceful park with beautiful viewpoints that are especially stunning in winter light and uncrowded."
+        },
+        {
+          "name": "River Vltava Riverside",
+          "description": "Beautiful riverside area perfect for observing local wildlife like nutrias and enjoying peaceful walks."
+        },
+        {
+          "name": "Pet\u0159\u00edn",
+          "description": "Scenic area featuring blooming almond trees at sunset, ideal for afternoon walks and nature photography."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Prague at First Light (3:30-5am)",
+          "description": "The city's peaceful early morning hours offer stunning photography opportunities without crowds, with beautiful light reflecting off architecture."
+        },
+        {
+          "name": "Charles Bridge at Sunrise",
+          "description": "While crowded during the day, visiting at dawn captures the bridge's medieval beauty in serene conditions."
+        },
+        {
+          "name": "Old Town Streets at Sunset",
+          "description": "Narrow cobblestone streets of Old Town display stunning colors and architecture, especially beautiful during golden hour."
+        },
+        {
+          "name": "M\u00e1la Strana Alleyways",
+          "description": "Charming side streets in this historic district offer colorful medieval architecture perfect for street photography."
+        },
+        {
+          "name": "\u017di\u017ekovsk\u00fd Vys\u00edla\u010d (TV Tower)",
+          "description": "Iconic Prague landmark that creates dramatic silhouettes and offers unique architectural photography opportunities."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Prague at 4-5am (After Night Shift Hours)",
+          "description": "Late night/early morning Prague feels almost post-apocalyptic with just a few people, offering an incredibly peaceful local experience."
+        },
+        {
+          "name": "Vysehrad in Winter",
+          "description": "Historic fortress area that remains completely empty even in peak winter season, offering solitude and beautiful moody atmosphere."
+        },
+        {
+          "name": "Side Streets of M\u00e1la Strana",
+          "description": "Lesser-known alleyways in this historic district remain empty even when major tourist attractions like Charles Bridge are packed."
+        },
+        {
+          "name": "N\u00e1rodn\u00ed T\u0159\u00edda",
+          "description": "Quieter neighborhood perfect for afternoon walks and street photography, away from the main tourist circuits."
+        }
+      ]
+    }
+  }
+}

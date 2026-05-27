@@ -1,0 +1,29 @@
+{
+  "cached_at": "2026-05-27T10:49:10.715637",
+  "data": {
+    "city": "Vienna",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [],
+      "gram_worthy_spots": [
+        {
+          "name": "St. Stephen's Cathedral",
+          "description": "Vienna's iconic Gothic cathedral with stunning architecture that's especially beautiful during the Christmas season. A must-see landmark for photography and exploring Vienna's historic center."
+        },
+        {
+          "name": "Upper Belvedere Palace",
+          "description": "A grand baroque palace offering impressive views and renowned art collections. Perfect for both cultural exploration and photogenic palace grounds."
+        },
+        {
+          "name": "Vienna City Hall with Christmas Market",
+          "description": "The beautiful city hall building combined with the festive Christmas market creates a picturesque scene perfect for capturing Vienna's holiday atmosphere. Popular gathering spot with holiday decorations."
+        },
+        {
+          "name": "am Hof Christmas Market",
+          "description": "A charming Christmas market in Vienna's historic am Hof square, offering traditional holiday ambiance and festive photo opportunities. One of Vienna's popular seasonal attractions."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}

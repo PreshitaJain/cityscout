@@ -1,0 +1,40 @@
+{
+  "cached_at": "2026-05-26T11:40:22.640552",
+  "data": {
+    "city": "Mexico City",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Mercado Juarez",
+          "description": "A legendary food market that food enthusiasts get lost in and refuse to leave. Known for authentic Mexican cuisine that spoils visitors from eating tacos anywhere else."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Teotihuac\u00e1n",
+          "description": "Ancient pre-Columbian pyramids outside Mexico City, most famous for the Pyramid of the Sun which visitors could once climb for panoramic views."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Casa Azul",
+          "description": "Frida Kahlo's iconic blue house museum in Coyoac\u00e1n, a culturally significant and visually stunning destination that showcases feminist art and history."
+        },
+        {
+          "name": "Centro Hist\u00f3rico",
+          "description": "Mexico City's historic center with an international feel, historic architecture, and cultural significance that attracts photographers and travelers alike."
+        },
+        {
+          "name": "Coyoac\u00e1n",
+          "description": "A charming, artsy neighborhood popular with tourists and photographers, known for its bohemian atmosphere and cultural landmarks."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Local street art in Centro",
+          "description": "Hidden street art and graffiti throughout the city center featuring artistic messages and political commentary reflecting Mexico City's vibrant urban culture."
+        }
+      ]
+    }
+  }
+}

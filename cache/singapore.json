@@ -1,0 +1,48 @@
+{
+  "cached_at": "2026-05-26T11:30:17.999561",
+  "data": {
+    "city": "Singapore",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Hawker Centres",
+          "description": "Traditional local food courts offering authentic Singaporean cuisine at affordable prices. A must-visit for experiencing genuine local food culture."
+        },
+        {
+          "name": "Mixed Rice Stalls",
+          "description": "Popular casual dining spots serving mixed rice dishes with various accompaniments. Common in neighborhoods and accessible for casual dining."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Punggol Park",
+          "description": "A beautiful public park in the Punggol area that's popular with locals for evening gatherings and celebrations, offering green spaces for relaxation and community activities."
+        },
+        {
+          "name": "Lim Chu Kang",
+          "description": "A darker, less developed area of Singapore visible from space at night, representing the island's quieter, more natural regions away from urban centers."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Merlion Fountain",
+          "description": "Singapore's iconic lion fountain, one of the most classic and recognizable landmarks in the city-state, perfect for tourist photography."
+        },
+        {
+          "name": "West Coast PSA",
+          "description": "A distinctive waterfront area highly identifiable from satellite imagery at night, offering unique views of Singapore's industrial and coastal landscape."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Little India",
+          "description": "A culturally vibrant neighborhood with authentic Indian heritage, though less polished than other parts of Singapore, offering genuine local character and experiences."
+        },
+        {
+          "name": "Tanjong Katong Area",
+          "description": "A local residential area representing everyday Singapore life and community spirit, known for its regular neighborhood activities and local character."
+        }
+      ]
+    }
+  }
+}

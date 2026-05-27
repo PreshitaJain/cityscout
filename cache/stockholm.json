@@ -1,0 +1,39 @@
+{
+  "cached_at": "2026-05-27T10:49:44.848769",
+  "data": {
+    "city": "Stockholm",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Kungstr\u00e4dg\u00e5rden",
+          "description": "A beautiful public garden and park in central Stockholm, especially lovely in the morning hours. Popular spot for locals and visitors to enjoy nature and seasonal attractions."
+        },
+        {
+          "name": "Skinnarviksberget",
+          "description": "A scenic viewpoint hill in Stockholm offering panoramic views of the city. Known for being a chill spot to relax and enjoy the vistas, popular with both locals and tourists."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Skinnarviksberget Viewpoint",
+          "description": "An excellent location for photography with stunning views of Stockholm's skyline and cityscape. Perfect for capturing beautiful landscape shots of the city."
+        },
+        {
+          "name": "Lion Statues Around Stockholm",
+          "description": "Iconic small happy lion statues scattered throughout the city that serve as unique photo opportunities and local symbols of Stockholm's character. Available as miniature souvenirs."
+        },
+        {
+          "name": "Kungstr\u00e4dg\u00e5rden",
+          "description": "A picturesque public garden with seasonal flowers and landscaping that provides excellent photo opportunities, especially during festival season and spring blooms."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Historic Building Restoration Projects",
+          "description": "Various facade restoration projects throughout Stockholm where historic 1800s architectural details are being carefully restored. These spots showcase the city's efforts to preserve original decorative elements from before the 1900s."
+        }
+      ]
+    }
+  }
+}

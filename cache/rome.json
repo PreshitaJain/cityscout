@@ -1,0 +1,43 @@
+{
+  "cached_at": "2026-05-26T11:31:05.163136",
+  "data": {
+    "city": "Rome",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Roscioli",
+          "description": "Praised for excellent pizza in Rome. A local favorite that offers quality dining experience."
+        },
+        {
+          "name": "Osteria del Tempo Perso Belsiana",
+          "description": "Located at Via Belsiana, 94-95. Known for traditional Italian cuisine, though tiramisu received lower ratings in taste comparisons."
+        }
+      ],
+      "into_the_wild": [],
+      "gram_worthy_spots": [
+        {
+          "name": "The Pantheon",
+          "description": "An iconic Roman structure with a famous oculus (opening) in the roof that creates a magical experience, especially when it rains. A must-see photogenic landmark."
+        },
+        {
+          "name": "St. Peter's Basilica",
+          "description": "Home to Michelangelo's Pieta sculpture, one of the most stunning artworks in the world. A breathtaking and visually memorable location."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Villa D'Este",
+          "description": "Located in nearby Tivoli (a quick drive from Rome), this villa features grandiose gardens and is a pleasant surprise for those seeking architecture and nature away from the city center."
+        },
+        {
+          "name": "Villa Gregoriana",
+          "description": "Also in Tivoli, this estate offers winding paths, caves, and waterfalls set into the surrounding valley's geography, providing a peaceful escape from Rome's tourist crowds."
+        },
+        {
+          "name": "Tivoli",
+          "description": "A charming town just outside Rome featuring understated architecture that incorporates the surrounding valley's geography, offering a less crowded alternative to the main city."
+        }
+      ]
+    }
+  }
+}

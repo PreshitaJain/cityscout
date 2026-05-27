@@ -1,0 +1,48 @@
+{
+  "cached_at": "2026-05-26T11:27:49.108979",
+  "data": {
+    "city": "Paris",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Local Cheese & Wine Shops",
+          "description": "Paris is known for amazing cheese and wine selections. Visitors highly recommend exploring local shops to experience authentic French culinary traditions."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Jardin du Luxembourg",
+          "description": "A beautiful historic garden in Paris where visitors can spot wildlife like the mandarin duck and enjoy peaceful outdoor spaces in the city."
+        },
+        {
+          "name": "Jardin des Tuileries",
+          "description": "A major Parisian garden and outdoor attraction that offers scenic walks and a serene escape within the city center."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Parisian Doors (Art Nouveau Architecture)",
+          "description": "The ornate doors throughout Paris showcase beautiful Art Nouveau designs and historic architectural details perfect for photography and exploration."
+        },
+        {
+          "name": "La Voie Royale",
+          "description": "A historic thoroughfare in Paris that serves as a visual timeline of the city's architecture and monuments, from royal heritage to Napoleonic era landmarks."
+        },
+        {
+          "name": "Night Time Walks Along the Streets",
+          "description": "Paris is magical during evening walks, especially along medieval and historic streets that become beautifully atmospheric after dark."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Plateau de Saclay Area",
+          "description": "A transformed area visible from the Grand Paris Express viaduct, showcasing modern urban development projects and infrastructure with stunning views."
+        },
+        {
+          "name": "Vegetal Streets (Green Infrastructure Project)",
+          "description": "Several neighborhoods feature newly vegetalized streets that have been beautifully transformed with greenery and plants, creating pleasant and agreeably redesigned urban spaces."
+        }
+      ]
+    }
+  }
+}

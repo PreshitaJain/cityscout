@@ -1,0 +1,35 @@
+{
+  "cached_at": "2026-05-27T11:00:21.872640",
+  "data": {
+    "city": "Pune",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Osho Teerth Park",
+          "description": "A serene 12-acre Zen garden featuring beautiful light filtering through trees (komorebi effect). Perfect for peaceful morning walks with stunning natural interplay of sunlight and canopy."
+        },
+        {
+          "name": "Sambhaji Udyan",
+          "description": "A public garden and park located on JM Road in Pune. A local green space for relaxation and outdoor activities."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Osho Teerth Park - Morning Light Shots",
+          "description": "Iconic location for photography enthusiasts capturing the komorebi effect with sunrise rays piercing through the tree canopy. Best visited early morning for stunning photo opportunities."
+        },
+        {
+          "name": "Kharadi Viewpoint",
+          "description": "A scenic spot in Kharadi offering beautiful landscape views that showcase seasonal changes dramatically, ideal for nature and landscape photography."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Keshav Nagar",
+          "description": "A local residential area in Pune known for its community spirit and friendly neighborhood vibes, reflecting the helpful nature of locals."
+        }
+      ]
+    }
+  }
+}

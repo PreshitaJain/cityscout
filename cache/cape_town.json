@@ -1,0 +1,56 @@
+{
+  "cached_at": "2026-05-26T11:41:01.320046",
+  "data": {
+    "city": "Cape Town",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Checkers/Sixty60",
+          "description": "Popular grocery delivery service and supermarket chain with convenient shopping options throughout Cape Town. Known for fast delivery and reliable service."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Table Mountain",
+          "description": "Iconic mountain landmark and one of Cape Town's most recognizable natural features. A must-see destination offering spectacular views of the city and surrounding areas."
+        },
+        {
+          "name": "Cape of Good Hope",
+          "description": "Historic and scenic coastal point offering stunning ocean vistas and important historical significance. Part of a popular full-day trip from Cape Town."
+        },
+        {
+          "name": "Boulders Beach",
+          "description": "Beautiful beach known for its distinctive boulder formations and marine life. A scenic stop often included in Cape Town day trips and outdoor explorations."
+        },
+        {
+          "name": "Seal Island",
+          "description": "Marine wildlife destination where visitors can observe seals and experience the natural beauty of False Bay. Often visited as part of Cape Town's outdoor adventure activities."
+        },
+        {
+          "name": "False Bay / Kalk Bay Harbour",
+          "description": "Picturesque coastal area home to diverse marine life including fur seals and the famous orcas Port and Starboard. Great for wildlife viewing and experiencing local harbour charm."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Table Mountain at Night",
+          "description": "Cape Town's iconic peak creates stunning cyberpunk-like aesthetics at night with atmospheric lighting. Perfect for dramatic and moody photography with the city as backdrop."
+        },
+        {
+          "name": "Kalk Bay Harbour",
+          "description": "Charming local harbour with picturesque views of boats and coastal scenery. Great location for capturing authentic Cape Town maritime culture and ocean vistas."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Gordon's Bay",
+          "description": "Coastal spot where visitors can encounter unique wildlife and experience nature close to the city. Known for seal sightings and authentic local beach atmosphere."
+        },
+        {
+          "name": "Local Parks (Parks outside bed and breakfast areas)",
+          "description": "Parks accessible from various accommodation options throughout Cape Town offering peaceful outdoor spaces for exploration and relaxation away from major tourist crowds."
+        }
+      ]
+    }
+  }
+}

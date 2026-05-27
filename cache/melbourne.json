@@ -1,0 +1,40 @@
+{
+  "cached_at": "2026-05-27T10:48:04.085148",
+  "data": {
+    "city": "Melbourne",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "State Library (Caf\u00e9)",
+          "description": "A popular cultural destination in Melbourne where visitors can enjoy refreshments while exploring this iconic institution. The library is a must-visit spot mentioned by first-time travelers to Australia."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Brighton Beach",
+          "description": "Famous for its iconic colorful bathing boxes, this beach is a distinctive Melbourne attraction. It's a picturesque coastal spot popular with visitors exploring Melbourne's beach culture."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Bourke Street Tram",
+          "description": "An iconic Melbourne symbol that has inspired local art and is instantly recognizable to visitors. The tram represents the essence of Melbourne's historic transport system and charming streetscape."
+        },
+        {
+          "name": "State Library Melbourne",
+          "description": "A stunning cultural landmark and architectural gem that serves as a must-visit destination for first-time travelers to Melbourne. The building's interior and exterior are highly photogenic."
+        },
+        {
+          "name": "Brighton Beach Bathing Boxes",
+          "description": "Colorful and picturesque bathing boxes that are a famous and highly photogenic Melbourne attraction. These iconic structures are a favorite subject for photographers and travelers."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Cranny North",
+          "description": "A lesser-known local spot that residents are surprised to discover is closer than expected. This hidden gem offers a local perspective on the Melbourne area."
+        }
+      ]
+    }
+  }
+}

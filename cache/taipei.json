@@ -1,0 +1,52 @@
+{
+  "cached_at": "2026-05-27T10:53:14.874428",
+  "data": {
+    "city": "Taipei",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "A Joy Restaurant",
+          "description": "A well-regarded restaurant in Taipei, popular enough that visitors plan their New Year's Eve dining around it."
+        },
+        {
+          "name": "Raohe Night Market",
+          "description": "A vibrant night market offering street food and local cuisine, a must-visit destination for food lovers exploring Taipei's incredible food scene."
+        },
+        {
+          "name": "Night Markets (General)",
+          "description": "Taipei's night markets are legendary among visitors, where you can experience amazing cuisine and local food culture that justifies traveling just for the food."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Shifen Waterfall",
+          "description": "Known as the 'Little Niagara of Taiwan,' this magnificent waterfall in New Taipei City is just a 20-minute walk from the train station and offers stunning natural beauty."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Taipei 101",
+          "description": "Taipei's iconic skyscraper is one of the most photogenic spots in the city, especially striking during dramatic weather conditions and night shots with cyberpunk aesthetics."
+        },
+        {
+          "name": "Jiufen",
+          "description": "A beautiful hilly town with narrow lanes, caf\u00e9s, sea views, and great vantage points - offering numerous photo opportunities of traditional architecture and scenic landscapes."
+        },
+        {
+          "name": "Xinyi District (Godzilla Building)",
+          "description": "Features the distinctive 'Xinyi Godzilla' luxury apartment building with a unique architectural shape that makes for striking foreground shots in city photography."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Neighborhoods Beyond Travel Blogs",
+          "description": "Taipei has many unexplored neighborhoods not featured in mainstream travel blogs that reward curious visitors with authentic local culture and hidden gems."
+        },
+        {
+          "name": "A-Mei Tea House (Jiufen)",
+          "description": "While Jiufen itself can be touristy, exploring beyond the famous A-Mei Tea House reveals authentic caf\u00e9s and local spots with genuine charm in this hillside town."
+        }
+      ]
+    }
+  }
+}

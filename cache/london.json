@@ -1,0 +1,35 @@
+{
+  "cached_at": "2026-05-26T11:27:58.221640",
+  "data": {
+    "city": "London",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "St. James' Park",
+          "description": "A beautiful royal park in central London, perfect for walking and enjoying green space in the heart of the city."
+        },
+        {
+          "name": "White Cliffs of Dover",
+          "description": "Stunning coastal cliffs near London offering dramatic scenic views and a memorable day trip experience."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "The Monument",
+          "description": "A historic monument standing 202 feet tall, located near Pudding Lane where the Great Fire of London started, with fascinating architectural details."
+        },
+        {
+          "name": "Natural History Museum",
+          "description": "One of the most amazing and architecturally impressive buildings in London, featuring world-class museum exhibits in a stunning Victorian structure."
+        }
+      ],
+      "off_the_beaten_path": [
+        {
+          "name": "Chiswick",
+          "description": "A neighborhood in London worth exploring by cycling or walking, offering a local perspective away from major tourist attractions."
+        }
+      ]
+    }
+  }
+}

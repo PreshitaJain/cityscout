@@ -1,0 +1,27 @@
+{
+  "cached_at": "2026-05-26T11:30:55.379782",
+  "data": {
+    "city": "Cairo",
+    "categories": {
+      "where_to_eat": [
+        {
+          "name": "Syrian Restaurants",
+          "description": "Popular dining establishments run by Syrian refugees in Cairo. These restaurants have become notable community gathering places, though they've recently faced local criticism campaigns."
+        }
+      ],
+      "into_the_wild": [
+        {
+          "name": "Manshiyat Naser (Garbage City)",
+          "description": "A neighborhood on the edge of Cairo home to the Zabbaleen, around 60,000 Coptic Christians who've been collecting and recycling the city's trash for generations. A unique cultural and socioeconomic experience showing the daily life and work of this community."
+        }
+      ],
+      "gram_worthy_spots": [],
+      "off_the_beaten_path": [
+        {
+          "name": "Manshiyat Naser Walking Tours",
+          "description": "Walking around Manshiyat Naser provides an authentic, off-the-beaten-path experience exploring Cairo's neighborhoods beyond typical tourist attractions and understanding local community life."
+        }
+      ]
+    }
+  }
+}

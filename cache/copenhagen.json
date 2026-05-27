@@ -1,0 +1,22 @@
+{
+  "cached_at": "2026-05-27T10:50:17.052087",
+  "data": {
+    "city": "Copenhagen",
+    "categories": {
+      "where_to_eat": [],
+      "into_the_wild": [
+        {
+          "name": "Valby Bakke",
+          "description": "A notable hill in Copenhagen that offers scenic views and is a popular spot for locals to visit. It appears to be a well-known destination that changes seasonally with activities like sledding in winter."
+        }
+      ],
+      "gram_worthy_spots": [
+        {
+          "name": "Rosenborg Castle",
+          "description": "A historic castle in Copenhagen that is a must-see tourist attraction and popular photography destination. Visitors can tour the castle and enjoy its architectural beauty."
+        }
+      ],
+      "off_the_beaten_path": []
+    }
+  }
+}
